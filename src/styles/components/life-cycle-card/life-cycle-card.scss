@@ -1,0 +1,48 @@
+.safemeet-life-cycle-card{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    h4{
+        background: rgba(0,0,0,0.1);
+        border-radius: 10px;
+       font-weight: 400;
+       font-size: 25px;
+       padding: 10px;
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+       @media screen and (max-width:340px){
+           font-size: 20px;
+       }
+    }
+    p{
+        display: none;
+        font-size: 15px;
+        margin: 10px;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+}
+
+.active-class-h4{
+    padding: 10px 10px !important;
+    background-color: $blue !important;
+    color: $white;
+    border-radius: 10px;
+}
+
+.active-class-p{
+    display: block !important;
+}
+
+.safemeet-life-cycle-card-mob{
+    display: none;
+    @media screen and (max-width:1024px) {
+        display: block;
+    }
+}

@@ -1,0 +1,227 @@
+@import "../../utilities/variables.scss";
+
+
+#saleassistEmbed{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    iframe{border:none;position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;}
+
+}
+#saleassistEmbed::before {
+    padding-top: 100%;
+    display: block;
+    content: "";
+}
+
+.safemeet-demo-page {
+    // height: calc(100vh - 100px);
+
+    &-logo {
+        // height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-gap: 15px;
+
+        img {
+            height: 42px;
+            @media screen and (max-width:768px) {
+                height: 37px;
+            }
+        }
+    }
+
+    &-row {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media screen and (max-width:1024px){
+            gap: 20px;
+        }
+        &-col-1 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            @media screen and (max-width:1024px){
+                flex: 100%;
+                order: 1;
+                align-items: center;
+                text-align: center;
+            }
+            h1 {
+                font-size: 78px;
+                font-weight: 400;
+                margin-bottom: 30px !important;
+                @media screen and (max-width:1200px){
+                    font-size: 67px;
+                }
+                @media screen and (max-width:768px){
+                    font-size: 45px;   
+                }
+                @media screen and (max-width:460px){
+                    font-size: 38px;   
+                }
+            }
+            p {
+                font-size: 26px;
+                font-weight: 400;
+                margin-bottom: 30px !important;
+                @media screen and (max-width:1200px){
+                    font-size: 23px;
+                }
+                @media screen and (max-width:768px){
+                 font-size: 20px;   
+                }
+                @media screen and (max-width:460px){
+                    font-size: 16px;   
+                }
+            }
+
+            &-1 {
+
+                display: flex;
+                flex-direction: row;
+
+                div {
+                    flex: 0.5;
+                }
+
+                ul {
+                    flex: 11;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    font-size: 20px;
+                    @media screen and (max-width:1024px){
+                        align-items: center;
+                    }
+
+                    li {
+                        padding: 15px 0;
+                        @media screen and (max-width:768px){
+                            padding: 10px 0;   
+                        }
+                        @media screen and (max-width:460px){
+                            font-size: 14px;   
+                        }
+                    }
+                }
+            }
+        }
+
+        &-col-2 {
+            flex: 1;
+            text-align: center;
+            @media screen and (max-width:1024px){
+                    flex: 100%;
+                    order: 2;
+            }
+            img{
+                @media screen and (max-width:460px){
+                    width: 100%;
+                }
+            }
+            &-inner {
+                margin: auto;
+                width: 400px;
+                @media screen and (max-width:556px){
+                    width: 100%;
+                }
+                h3 {
+                    font-size: 24px;
+                    font-weight: 400;
+                    @media screen and (max-width:460px){
+                        font-size: 18px;   
+                    }
+                }
+
+                .label {
+                    margin-bottom: 0px;
+                    margin-top: 20px;
+                }
+
+                input {
+                    width: 100%;
+                    height: 50px;
+                    padding: 10px;
+                    border: 1px solid $black;
+                    border-radius: 8px;
+                    font-size: 18px;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                button {
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 50px;
+                    font-size: 20px !important;
+                    @media screen and (max-width:1024px){
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-logo-bottom {
+        img {
+            width: 200px;
+        }
+    }
+}
+
+.safemeet-error-boundary-red {
+    border: 1px solid $error-span-color !important;
+}
+
+// .safemeet-demo-page{
+//     display: flex;
+//     flex-direction: row;
+   
+//     justify-content: center;
+//     min-height: 100vh;
+//     &-1{
+//         height: 100%;
+//         flex: 1.5;
+//         background-color: red;
+//     }
+//     &-2{
+//         flex: 0.5;
+//     }
+// }
+
+.image-celebration{
+    width: 500px;
+    position: 'relative';
+    z-index: -1;
+    @media screen and (max-width:460px){
+       width: 390px;
+    }
+    @media screen and (max-width:380px){
+        width: 350px;
+     }
+}
+
+.demo-page-h1{
+    font-size: clamp(1rem,3vw,2rem);
+}
+
+.demo-page-h3{
+    font-size: clamp(1rem,1vw,1rem);
+}

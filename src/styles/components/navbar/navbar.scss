@@ -1,0 +1,243 @@
+@import "../../utilities/variables.scss";
+
+.navbar-shadow {
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+.safemeet-navbar {
+  background-color: $white;
+  position: fixed;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  // height: 60px;
+  width: 100%;
+  transition: background-color 0.5s;
+
+  z-index: 1024;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+
+  .safemeet-navbar-row {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &-col-1 {
+      flex: 1;
+      display: flex;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    &-col-2 {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .safemeet-navitem {
+        color: $black;
+        padding: 10px 20px;
+        padding-bottom: 30px;
+        margin: 0;
+        margin-top: 30px;
+        cursor: pointer;
+        .safemeet-navitem-item {
+          display: none;
+        }
+
+        .active-class {
+          border-bottom: 5px solid $blue;
+        }
+        .active-feature,
+        .active-customers {
+          border-bottom: 5px solid $blue;
+        }
+        &:hover .safemeet-navitem-item {
+          display: block;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 100%;
+          margin-top: 5px;
+
+          &-row {
+            padding: 30px;
+            background-color: $navbar-bg-color;
+            backdrop-filter: blur(200px);
+            -webkit-backdrop-filter: blur(6px);
+            border-radius: 10px;
+            border: 1px solid $navbar-border-color;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            &-col-1 {
+              flex: 75%;
+              border-right: 1px solid $black;
+              padding-right: 10px;
+
+              &-1 {
+                display: flex;
+                margin-bottom: 30px;
+              }
+
+              &-2 {
+                display: flex;
+                margin-bottom: 30px;
+              }
+
+              &-3 {
+                display: flex;
+              }
+            }
+
+            &-col-2 {
+              margin-top: 3px;
+              padding-left: 10px;
+              flex: 25%;
+              align-self: normal;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+
+              &-1 {
+                flex: 1;
+                margin-bottom: 1.8rem;
+                text-decoration: none;
+                @media screen and (max-width: 1200px) {
+                  margin-bottom: 0.7rem;
+                }
+                @media screen and (max-width: 1024px) {
+                  margin-bottom: 1rem;
+                }
+              }
+
+              &-2 {
+                flex: 1;
+                margin-bottom: 10px;
+                text-decoration: none;
+              }
+
+              &-3 {
+                flex: 1;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .safemeet-btn {
+                  height: 40px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex-1 {
+  flex: 1;
+  text-decoration: none;
+}
+
+.safemeet-navitem-item-customer-row {
+  padding: 30px;
+  background-color: $navbar-bg-color;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid $navbar-border-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  &-col-1 {
+    flex: 1;
+    align-self: normal;
+    padding-bottom: 20px;
+    border-right: 1px solid $black;
+    padding-right: 15px;
+  }
+  &-col-2 {
+    padding: 0 15px;
+    border-right: 1px solid $black;
+    flex: 1;
+    align-self: normal;
+  }
+  &-col-3 {
+    flex: 1;
+    padding-left: 15px;
+    align-self: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.client-story {
+  margin-bottom: 20px;
+}
+
+.navbar-bg-color {
+  background-color: $white !important;
+}
+
+.white {
+  color: $white !important;
+  text-decoration: none;
+}
+
+.active-feature-white {
+  border-bottom: 5px solid $white !important;
+}
+
+.active-customer-white {
+  border-bottom: 5px solid $white !important;
+}
+
+.active-resourse-white {
+  border-bottom: 5px solid $white !important;
+}
+
+.safemeet-navitem-white-color {
+  color: $white;
+}
+
+.link {
+  color: $black;
+  text-decoration: none;
+}
+.nowWrap {
+  white-space: nowrap;
+}
+.link.loginMenu {
+  white-space: nowrap;
+}
+.safemeet-top-strip {
+  background-color: $black;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: $white;
+  @media screen and (max-width: 460px) {
+    font-size: 12px;
+  }
+  a {
+    color: $white;
+  }
+}

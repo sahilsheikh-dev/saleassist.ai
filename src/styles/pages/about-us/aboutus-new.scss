@@ -1,0 +1,136 @@
+
+body{font-family: 'Roboto', sans-serif; }
+.container{max-width: 1170px;margin: auto;}
+.btn{padding: 10px 25px; cursor: pointer;}
+.btnArea {display: flex;grid-gap:15px ; margin-top: 20px;}
+.btnArea.center{justify-content: center;}
+.btnBlue{cursor: pointer; background:#4285F4; color: #fff; font-size: 14px; text-align: center;border: none;padding: 12px 0;border-radius: 8px; min-width: 210px;box-shadow: 0px 4px 0px #c9ddff;}
+.btnBlack{cursor: pointer; background: #000; color: #fff; font-size: 14px; text-align: center;border: none;padding: 12px 0;border-radius: 8px; min-width: 210px;box-shadow: 0px 4px 0px #a8a8a8;}
+
+.aboutBox{background: #fff;border:solid 1px #EDEDED;border-radius: 12px;padding: 34px 40px 45px;box-shadow:0px 0px 26px rgba(0,0,0,0.05%);background: url('../../../assests/about-us/shape.png') no-repeat right top;}
+.imgResponsive{max-width: 100%;height: auto;}
+.aboutFirstFold {width: 100%; padding-top: 130px;}
+.aboutFirstFold .aboutHeading{display: flex;}
+.aboutFirstFold h1 {font-size: 24px;color: #DB4B45;}
+.aboutFirstFold h2 {font-size: 42px; color: #000; line-height: 52px;margin-top: 30px;flex: 1;font-weight: bold;}
+.aboutFirstFold p {font-size: 18px;color: #666;margin-top: 25px;line-height: 32px;flex: 1;} 
+.aboutFirstFold figure {margin-top: 150px;}
+
+.fiveMagic {width: 100%; padding:80px 0}
+.heading {text-align: center; margin: auto; margin-bottom: 40px;display: flex;align-items: center;justify-content: center;grid-gap: 10px; text-align: center; color: #000000; font-size: 30px; font-weight: bold;width: 100%;}
+.fiveMagic .magicBox ul {display: flex; padding: 0px; margin: 0px; list-style: none;grid-gap: 15px;}
+.fiveMagic .magicBox ul li {flex: 1;background: #F7F7F7; border-radius: 16px;padding-top:20px ;padding-bottom: 0; text-align: center;border:solid 1px #EDEDED}
+.fiveMagic .magicBox ul li span {font-size: 16px; font-weight: bold; color: #4285F4;position: relative;top:8px;}
+.fiveMagic .magicBox ul li figure { padding: 0px;}
+
+.doForYou {width: 100%; padding:40px 0 80px;background: #FAFAFA;}
+.doForYou .slidebox .slidItem {width: 350px !important;padding: 15px 15px 10px;margin:0 15px; background: #fff; border-radius: 12px;box-shadow:0 0 10px rgba(0,0,0,0.06%);}
+.slick-dots{bottom: -50px !important;}
+.slick-dots li{margin-right: 10px !important;}
+.slick-dots li button::before{background: #4285F4;width: 30px !important;height: 6px !important;color: #4285F4 !important;border-radius: 50px !important; color: transparent !important;}
+
+.doForYou .slidebox ul li img{width: 100%;}
+
+.team {width: 100%; padding-top: 50px;}
+.team .subtext {padding: 0px 150px; font-size: 16px; text-align: center; color: #333333;line-height: 32px;}
+.team .subtext strong {font-size: 18px; font-weight: bold;}
+
+.team ul {display: flex;margin-top: 40px; list-style: none;grid-gap: 30px;}
+.team ul li {width: 100%;padding:18px 18px 10px; border:solid 1px #EAEAEA;border-radius: 12px;box-shadow: 0px 0px 16px rgba(0,0,0,0.06%);}
+.team ul li figure.pic { padding: 0px;}
+.team ul li .teamDetails {display: flex;justify-content:space-between;padding:5px 0px 0 0}
+.team ul li .teamDetails p{text-align:left;}
+.team ul li .teamDetails span {font-size: 16px; font-weight: bold; color: #333333; text-align: center;display: block;}
+.team ul li .teamDetails small {font-size: 14px; color: #666666;display: block;}
+.team ul li .teamDetails figure {text-align: center; margin-top: 5px;}
+
+.joinOurJourney {width: 100%; padding-top: 100px; margin-bottom: 70px; }
+.joinOurJourney .box {background: #fafafa url('../../../assests/about-us/shape.png') no-repeat right top;border:solid 1px #ededed; padding: 50px 38px; border-radius: 24px;  display: flex;flex-direction: column;justify-content: center;}
+.joinOurJourney .box .leftDiv {background: #FFFFFF; border-radius: 16px; padding:5px 25px;}
+.joinOurJourney .box .leftDiv figure {width:100%; text-align: center;}
+.joinOurJourney .box .rightDiv {width: 100%; padding-top: 25px;text-align: center;}
+.joinOurJourney .box .rightDiv .heading {text-transform: uppercase; font-style: italic; font-size: 18px; color: #000; text-align: center; font-weight: bold;}
+.joinOurJourney .box .rightDiv .btnArea {margin-top: 15px;}
+
+.ourpartnerLogo ul{display: flex;flex-wrap: wrap;grid-gap: 30px;justify-content: center;padding-bottom: 40px;}
+.ourpartnerLogo ul li{border:solid 1px #EAEAEA;border-radius: 12px;box-shadow: 0px 0px 16px rgba(0,0,0,0.05%);width: 250px;height: 132px;padding: 25px;align-items: center;
+    display: flex;
+    justify-content: center;}
+.ourpartnerLogo ul li img{max-width:100%;}
+.partnerLink{font-size: 16px;text-align: center;color: #000;margin-bottom: 80px;}
+.partnerLink a{color: #4285f4;text-decoration: none;}
+.joinbox{display: flex;justify-content: center;align-items: center;grid-gap: 80px;}
+@media screen and (max-width:768px){
+    .ourpartnerLogo ul{grid-gap: 15px;}
+    .ourpartnerLogo ul li{width: 45%;height: 85px;}
+    .aboutFirstFold h2{font-size: 26px;line-height: 30px;}
+    .doForYou .slidebox .slidItem{width: inherit !important;margin: 0;}
+    .slick-dots {
+        text-align: center;
+      }
+      .slick-dots li {
+          display: none;
+        margin: 0 5px;
+      }
+      .slick-dots li.slick-active,
+      .slick-dots li.slick-active + li,
+      .slick-dots li.slick-active + li + li {
+          display: inline-block;
+      }
+      
+      .slick-dots li:nth-last-child(1),
+      .slick-dots li:nth-last-child(2),
+      .slick-dots li:nth-last-child(3) {
+          display: inline-block;
+      }
+      
+      .slick-dots li.slick-active ~ li:nth-last-child(1),
+      .slick-dots li.slick-active ~ li:nth-last-child(2),
+      .slick-dots li.slick-active ~ li:nth-last-child(3) {
+          display: none;
+      }
+      .slick-dots li.slick-active + li + li:nth-last-child(3),
+      .slick-dots li.slick-active + li + li:nth-last-child(2),
+      .slick-dots li.slick-active + li + li:nth-last-child(1),
+      .slick-dots li.slick-active + li:nth-last-child(3),
+      .slick-dots li.slick-active + li:nth-last-child(2),
+      .slick-dots li.slick-active + li:nth-last-child(1){
+          display: inline-block;
+      }
+      .aboutBox{padding: 15px;}
+      .aboutFirstFold h1{font-size: 20px;}
+      .aboutFirstFold p{font-size: 16px;line-height: 26px;}
+      .btnArea{margin-top: 30px;}
+      .heading{font-size: 20px;display: flex;align-items: center;grid-gap: 10px;justify-content: center;}
+      .fiveMagic{padding: 35px;}
+      .doForYou{padding: 20px 0 69px;}
+      .slick-dots li{margin: 0px 5px !important;}
+      .slick-dots li button::before{width: 20px !important;}
+      .team{padding-top: 35px;}
+      .team ul{grid-gap: 15px;}
+      .joinOurJourney{padding-top: 50px;margin-bottom: 30px;}
+      .joinOurJourney .box{padding: 20px 15px 30px;}
+      .joinOurJourney .box .rightDiv{padding-top: 20px;}
+      .partnerLink{margin-bottom: 50px;}
+      .joinbox{flex-direction: column;}
+}
+@media screen and (max-width:680px){
+    .aboutFirstFold .aboutHeading,.btnArea,.fiveMagic .magicBox ul,.doForYou .slidebox ul,.team ul{flex-direction: column;}
+    .fiveMagic .magicBox ul li{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .team .subtext{padding: 0;line-height: 26px;font-size: 14px;}
+    .aboutFirstFold{padding-top: 85px;}
+}
+ @media screen and (max-width: 375px) { 
+.priceBoxmain {min-width: 350px;}
+.priceBox {height: 1130px;}
+}
+ @media screen and (max-width: 360px) { 
+.priceBoxmain {min-width: 335px;}
+.priceBox {height: 1150px;}
+}
+
+@media screen and (max-width: 320px) { 
+.priceBoxmain {min-width: 295px;}
+}

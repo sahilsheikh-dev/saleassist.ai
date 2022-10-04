@@ -1,0 +1,17 @@
+.safemeet-more-ways-to-use{
+    margin: 50px auto !important;
+    &-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .h1{
+        text-align: center;
+        font-weight: 400;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+}

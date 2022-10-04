@@ -1,0 +1,638 @@
+.priceMainBox{
+	@media screen and (max-width:680px){
+		display: flex;flex-direction:column;
+	}
+}
+
+.mobiletalbe{order:1}
+.priceSection{order:3}
+.topSection{order:0}
+.container {
+    width: 100%;
+	max-width: 1140px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+    @media screen and (min-width:1140px) {
+        width: 1140px;
+    }
+}
+.priceSection{padding-top: 70px;
+	@media screen and (max-width:768px) {
+		padding-top: 0px;
+	}
+}
+.showAll{padding-top: 0px;transition: 0.5s; max-height: 0px;overflow: hidden;}
+.showAll.active{max-height:2000px; transition: 0.5s;
+	@media screen and (max-width:680px){
+		order:1;
+	}
+}
+.btn {
+	padding: 10px 25px;
+	cursor: pointer;
+	a{text-decoration: none;}
+}
+.btnBlack {
+	background: #000;
+	color: #fff;
+	text-align: center;
+	border: none;
+	padding: 12px 0;
+	border-radius: 6px;
+}
+.priceSection {
+	h2 {
+		font-size: 44px;
+		text-align: center;
+		margin: 50px 0px 20px;
+        @media screen and (max-width: 414px) {
+            font-size: 32px;
+        }
+	}
+	.subHeading {
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 20px;
+        @media screen and (max-width: 414px) {
+            padding: 0px 30px;
+        }
+	}
+	.seeAllPlan {
+		margin: 15px auto;
+		border-radius: 8px;
+		width: 60%;
+		text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 414px) {
+            width: 94%;
+        }
+        
+	}
+	@media screen and (max-width:768px){
+		.seeAllPlan{display: none;}
+	}
+}
+.addIcon{width: 15px;display: flex;
+    margin-right: 10px;
+	flex-shrink: 0;
+	margin-left: 15px;
+	background: rgba(255, 255, 255, 0.2);
+	height: 16px;
+	border-radius: 50%;
+	padding: 3px;
+    img{width: 100%;}
+}
+.priceBox {
+	display: inline-flex;
+	grid-gap: 24px;
+	padding-top: 70px;
+	width: 100%;
+	overflow: hidden;
+    @media screen and (max-width: 768px) {
+		flex-direction: column;
+        position: relative;margin-top: 60px;padding-top:30px;
+    }
+
+
+}
+.trialBox {
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 16px;
+	padding: 36px 18px;
+	width: 370px;
+	flex-shrink: 0;
+    @media screen and (max-width: 768px) {
+        width: 100%;text-align: center;margin: auto;
+    }
+	.service {
+		background: #F7F7F7 url('../../../../src/assests/pricing/payasuse.svg') no-repeat right -53px top -70px;
+		border-radius: 4px;
+		text-align: center;
+		padding: 15px 15px 60px;
+		position: relative;
+		span {
+			font-size: 10px;
+			color: #ccc;
+			position: absolute;
+			width: 116px;
+			text-align: right;
+			line-height: 14px;
+			bottom: 10px;
+			right: 10px;
+			figure {
+				position: relative;
+				top: 15px;
+				right: -15px;
+			}
+		}
+		h3 {
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+			text-transform: uppercase;
+		}
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			grid-gap: 14px 8px;
+			margin: 30px 0;
+			li {
+				flex: 1 0 45%;
+				padding: 8px 20px;
+				background: #E8E8E8;
+				font-size: 14px;
+				box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+				border-radius: 4px;
+			}
+		}
+		p {
+			color: rgba(0, 0, 0, 0.5);
+			font-size: 14px;
+			padding: 0 10%;
+		}
+		.trialBtn {
+			background: #54FFF7;
+			border-radius: 16px;
+			display: inline-block;
+			margin-top: 15px;
+			padding: 13px 40px;
+			color: #000;
+			border: none;
+			font-weight: bold;
+			cursor: pointer;
+			text-decoration: none;
+		}
+	}
+}
+
+.priceTable {
+	display: flex;
+	grid-gap: 10px;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.priceBoxmain {
+	background: #F7F7F7;
+	border-radius: 16px;
+	padding: 15px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    flex:1;
+	position: relative;
+	max-width: 300px;
+	h4 {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 12px;
+	}
+	p {
+		font-size: 12px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	.connectBtn {
+		font-size: 14px;
+		background: #000;
+		color: #fff;
+		padding: 12px 46px;
+		border-radius: 16px;
+		border: none;
+		text-decoration: none;
+		margin: 15px 0;
+	}
+	ul {
+		display: block;
+		width: 100%;
+	}
+	li {
+		padding: 12px 0;
+		font-size: 14px;
+		text-align: center;
+		border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+		a{color:#000;text-decoration: none;}
+		
+	}
+	li:first-child{font-weight: 600;}
+	li:last-of-type{
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	@media screen and (max-width:768px){
+		max-width: 230px;
+	}
+}
+.sliderTable{
+	display: block;max-width: 100%;padding:70px 0 0;
+	.priceBoxmain{margin-right: 10px;margin-top: 50px;}
+	.seeAllPlan,.showPlanMob {clear: both;display: flex;margin:50px auto 0;padding: 10px 20px ;}
+	@media screen and (min-width:769px){
+		display: none;
+	}
+	.slick-dots{bottom: -40px !important;   
+		li{
+			button:before{
+				content: '';
+				border-radius: 50%;
+				width: 10px;
+				height: 10px;
+				background: #797979;
+			}
+		}
+	}
+}
+.showPlanMob{display:none;
+ @media screen and (max-width:680px){
+	 display:block;
+ }
+}
+.priceBoxmain.PopularPrice {
+	&:before {
+		position: relative;
+		content: 'Most Popular Plan';
+		position: absolute;
+		top: -36px;
+		border-radius: 16px 16px 0 0;
+		background: #4285F4;
+		color: #fff;
+		padding: 8px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: -1;
+		height: 79px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+}
+.earlyStage {
+	.earlyStageBox {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: url('./../../../assests/pricing/early1.svg') no-repeat,url('./../../../assests/pricing/early2.svg') no-repeat, linear-gradient(109.84deg, #0048C0 -0.83%, #5F9AFB 100.96%);
+		border-radius: 16px;
+		min-height: 450px;
+		background-position: left -138px top -52px,right -157px bottom -25px, 100%;
+		margin-top: 70px;
+		figure {
+			max-width: 150px;
+			img {
+				width: 100%;
+			}
+		}
+		h3 {
+			font-size: 24px;
+			color: #fff;
+			font-weight: 500;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 16px;
+			color: #fff;
+			text-align: center;
+			margin-bottom: 30px;
+			span {
+				font-weight: 500;
+			}
+			@media screen and (max-width:768px) {
+				br{display: none;}
+				font-size: 14px;
+			}
+		}
+		.btnOutline {
+			background: transparent;
+			border: solid 1px #fff;
+			border-radius: 8px;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			cursor: pointer;
+			img {
+				margin-left: 10px;
+				max-width: 100%;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 14px;
+			}
+		}
+		@media screen and (max-width:768px) {
+			padding:30px;
+		}
+	}
+	@media screen and (max-width:680px) {
+		order:3
+	}
+}
+.faq {
+	.faqBack {
+		background: #F7F7F7;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 16px;
+		padding: 40px 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 70px;
+		h3 {
+			font-size: 90px;
+			color: #C6C6C6;
+			position: relative;
+			letter-spacing: 5px;
+			&:after {
+				content: 'FREQUENTLY ASKED QUESTIONS';
+				position: absolute;
+				position: absolute;
+				font-size: 12px;
+				color: #000;
+				left: 0;
+				white-space: nowrap;
+				letter-spacing: initial;
+				top: 50%;
+				background: rgba(255, 255, 255, 0.28);
+			}
+		}
+		.faqAccordian {
+			width: 90%;
+			.accordingBox {
+				border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+				padding: 10px 0px;
+				h2 {
+					font-size: 16px;
+                    display: flex;
+					font-weight: bold;
+                    justify-content: space-between;
+                    cursor: pointer;
+					position: relative;
+					&::before{
+						width: 10px;height: 10px;top: 4px; border-radius: 50%;left: -20px;content: '';position: absolute;background: #000;
+					}
+				}
+				.accdingSpan {
+					font-size: 14px;
+					display: none;
+				}
+                &.active{
+                    .accdingSpan{display: block;padding: 10px 0;margin-top: 5px;color: #666;padding-bottom: 0;}
+                }
+				@media screen and (max-width: 768px){
+					padding:10px 0 10px 20px;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				width: 100%;
+			}
+		}
+        @media screen and (max-width: 768px) {
+            margin-top: 30px;
+			width: 100%;
+        }
+	}
+	@media screen and (max-width:680px) {
+		order:4
+	}
+}
+.newsLetter {
+	.newletterBox {
+		background: rgb(246,238,251);
+		background: linear-gradient(123deg, rgba(246,238,251,1) 0%, rgba(238,214,240,1) 50%, rgba(135,222,250,1) 100%);
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+		border-radius: 16px;
+		padding: 100px 0;
+		display: flex;
+		grid-gap: 100px;
+		justify-content: center;
+		margin: 70px 0px;
+        @media screen and (max-width: 768px) {
+            margin:30px 0px;
+			flex-direction: column;
+			padding: 20px;
+			grid-gap: 20px;
+        }
+        @media screen and (max-width: 414px) {
+            padding: 20px 30px; display: inline-block;
+        }
+	}
+	@media screen and (max-width:680px) {
+		order:5
+	}
+}
+.newsLetterText {
+	h2 {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 25px;
+        @media screen and (max-width: 680px) {
+         br{display: none;}
+        }
+        
+	}
+	li {
+		font-size: 16px;
+		margin-bottom: 15px;
+		background: url('./../../../assests/pricing/Arrow-black.svg') no-repeat left top 5px;
+		padding-left: 40px;
+        text-align: left;
+		span {
+			color: #747474;
+			display: block;
+			margin-top: 5px;
+		}
+	}
+	max-width: 45%;
+    @media screen and (max-width: 769px) {
+        max-width: 100%;
+    }
+}
+.newsInput {
+	display: flex;
+	flex-direction: column;
+	max-width: 35%;
+	h4 {
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.formGroup {
+		display: flex;
+		flex-direction: column;
+		font-size: 12px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		text-align: left;
+		align-items: flex-start;
+		input {
+			margin: 15px 0;
+			background: #FFFFFF;
+			border: 1px solid #000000;
+			box-sizing: border-box;
+			border-radius: 4px;
+			height: 45px;
+			padding: 12px 15px;
+		}
+		span {
+			font-size: 10px;
+			font-weight: normal;
+		}
+	}
+    @media screen and (max-width: 769px) {
+        max-width: 100%;
+    }
+}
+.margin70{
+	margin: 70px 0px;
+}
+.clients {
+	.clientsBox {
+		padding: 30px 0;
+		// margin: 70px 0px;
+		// filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	}
+	@media screen and (max-width:680px) {
+		order:5
+	}
+}
+.clientsBox {
+	h3 {
+		font-size: 24px;
+		text-align: center;
+		font-weight: 700;
+		margin-bottom: 25px;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		figure {
+			display: inline-block;
+			margin-left: 5px;
+			img {
+				width: 60px;
+			}
+		}
+		@media screen and (max-width:768px){
+			font-size: 22px;margin-bottom: 40px;
+		}
+	}
+	.mainDiv {
+		display: flex;
+		flex-direction: column;
+		.leftDiv {
+			width: 100%;
+			@media screen and (max-width:768px){
+				width: 100%;
+			}
+		}
+		.rightDiv {
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			@media screen and (max-width:768px){
+				width: 100%;
+			}
+		}
+		@media screen and (max-width:768px){
+			display: block;
+		}
+	}
+	.leftDiv {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			grid-gap: 30px;
+			padding-bottom: 40px;
+			li {
+				border: solid 1px #EAEAEA;
+				border-radius: 12px;
+				box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+				width: 250px;
+				height: 132px;
+				padding: 25px;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+				figure{
+					img{
+						width: 100%;
+						@media screen and (max-width:414px){
+							width: 100px;
+						}
+						
+					}
+				}
+				@media screen and (max-width:768px){
+					margin:0px; text-align: center;
+				}
+				@media screen and (max-width:414px){
+					display: inherit; float: inherit; margin-right: 0px;flex:1;height:83px;width:calc(50% - 15px);
+				}
+			}
+			@media screen and (max-width:768px){
+				padding: 0px 80px; 
+			}
+			@media screen and (max-width:414px){
+				padding: 0px; 
+				grid-gap: 15px;
+				margin-bottom: 20px;
+			}
+		}
+		@media screen and (max-width:768px){
+			width: 100%;
+		}
+	}
+	.btnBlack {
+		display: block;
+		padding: 12px 70px;
+		text-align: center;
+		margin: auto;
+		cursor: pointer;
+		text-decoration: none;
+		figure {
+			display: inline-block;
+			position: relative;
+			top: 3px;
+			margin-left: 12px;
+		}
+		@media screen and (max-width:768px){
+			margin-bottom: 15px;
+		}
+	}
+	@media screen and (max-width:768px){
+		margin:0px 15px 30px;
+	}
+	@media screen and (max-width:414px){
+		margin: 0px 15px 20px;
+	}
+}
+
+
+
+.featureCheck{width: 20px;height: 20px;background: #EBEBEB;border-radius: 50%;padding: 4px;display: block;position: relative;}
+.featureCheck img{width: 100%;}
+.featuresSymble{background: #F7F7F7;display: flex;width: 100%;padding: 40px 10px 30px;border-radius: 8px;position: relative;margin-bottom: 20px;}
+.featuresSymble span{position: absolute;top: 10px;left: 10px;font-size: 14px;}
+.featuresSymble li{display: flex;width: 100%;align-items: center;font-size: 14px;}
+.featuresSymble li img{margin-right: 10px;height: 14px;}
+
+.symbleList{
+	@media screen and (max-width:680px){
+		display: none;
+	}
+}
+
+
+.itemAddlist li{border-bottom: 1px solid rgba(0, 0, 0, 0.2);padding: 10px 0;color: #000;font-size: 14px;text-align: left;}
+.seeAllList{padding-top: 8px;}
+.seeAllList li{height: 38px;display: flex;align-items: center;justify-content: center;border-top: none;border-bottom: 1px solid rgba(0, 0, 0, 0.2);padding: 0;}
+.showAll{
+	@media screen and (max-width:768px) {
+		.priceTable{display: none;}
+	}	
+}

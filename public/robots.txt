@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://www.saleassist.ai/sitemap.xml
+
+User-agent: *
+Disallow:

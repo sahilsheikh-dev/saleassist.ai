@@ -1,0 +1,293 @@
+.featuresTop {
+  background: rgb(28, 108, 240);
+  background: url("../../../assests/featured/circle/1.svg") no-repeat left
+      center,
+    url("../../../assests/featured/circle/2.svg") no-repeat right bottom,
+    linear-gradient(34deg, rgba(28, 108, 240, 1) 0%, rgba(3, 84, 216, 1) 100%);
+  display: flex;
+  flex-direction: column;
+}
+.featuresTop h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 195px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 70px;
+  text-shadow: 0px 3px 0px rgba($color: #000000, $alpha: 0.05);
+}
+.featuresTop p {
+  font-size: 18px;
+  max-width: 58%;
+  line-height: 28px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.TopFeature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(134px, 1fr));
+  max-width: 1366px;
+  margin: auto;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding: 0 15px;
+  place-items: center;
+}
+.TopFeature img {
+  max-width: 100%;
+}
+.FeatureListBox {
+  position: relative;
+  width: 100%;
+  padding-bottom: 6px;
+}
+.FeatureListBox .listContent {
+  background: #fff;
+  max-height: 136px;
+  border-radius: 20px;
+  grid-gap: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+.FeatureListBox .downShape {
+  background: #f5f5f5;
+  height: 130px;
+  box-shadow: 0px 3px 24px rgba($color: #000000, $alpha: 0.17);
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  width: 100%;
+  border-radius: 20px;
+}
+.FeatureListBox p {
+  font-size: 15px;
+  color: #333333;
+  max-width: 100%;
+}
+.ourFeatures {
+  font-size: 52px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 70px;
+}
+.FeaturesSubTitile {
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+.FeatureBox {
+  display: flex;
+  margin-top: 125px;
+  grid-gap: 100px;
+}
+.FeatureBox figure {
+  flex-shrink: 0;
+}
+.FeatureBox.oddClass {
+  flex-direction: row-reverse;
+}
+.FextureText .feHeading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.FextureText .feSubText {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.FextureText .feText {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.FeatureAll {
+  text-align: left;
+}
+.FeatureAll li {
+  background: #fff;
+  color: #333333;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 16px rgba($color: #000000, $alpha: 0.06);
+  text-align: left;
+  display: flex;
+  width: fit-content;
+  padding: 15px 20px;
+  border: solid 1px #f0f0f0;
+  border-radius: 8px;
+  grid-gap: 10px;
+}
+.FeatureAll li .feListIcon {
+  display: flex;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.iconbg01 {
+  background: #1162e6;
+}
+.iconbg11 {
+  background: #ffc73c;
+}
+.iconbg02 {
+  background: #ff725e;
+}
+.iconbg12 {
+  background: #e8505b;
+}
+.iconbg03 {
+  background: #1e8ceb;
+}
+.iconbg13 {
+  background: #ff725e;
+}
+.AIConversation {
+  background: url("../../../assests/featured/circle/4.svg") no-repeat right top,
+    url("../../../assests/featured/circle/5.svg") no-repeat left center;
+}
+.videoChat {
+  background: url("../../../assests/featured/circle/8.svg") no-repeat right
+    center;
+}
+.QRCode {
+  background: #fff5e6;
+  position: relative;
+}
+.QRCode::before {
+  content: "";
+  width: 100%;
+  height: 178px;
+  display: block;
+  background: #fff url("../../../assests/featured/qrcodeBgtop.png");
+}
+.QRCode::after {
+  content: "";
+  width: 100%;
+  height: 178px;
+  display: block;
+  background: #fff url("../../../assests/featured/qrcodeBgbottom.png");
+}
+.featureBarCode {
+  display: flex;
+  background: rgb(28, 108, 240);
+  background: linear-gradient(
+    34deg,
+    rgba(28, 108, 240, 1) 0%,
+    rgba(3, 84, 216, 1) 100%
+  );
+  border-radius: 8px;
+  padding: 22px 25px;
+  max-height: 235px;
+  justify-content: space-between;
+  margin: 166px 0;
+}
+.BarCodeText {
+  display: flex;
+  grid-gap: 30px;
+  align-items: center;
+}
+.BarCodeText .brHeading {
+  font-size: 38px;
+  color: #fff;
+  font-weight: bold;
+}
+.BarCodeText figure {
+  background: #fff;
+  border-radius: 4px;
+  padding: 12px;
+}
+.barCodeFormHeading {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.BarCodeForm {
+  width: 380px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  top: -90px;
+  height: 365px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px,
+    rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+}
+.BarCodeForm button {
+  max-width: 100% !important;
+}
+@media screen and (max-width: 768px) {
+  .TopFeature {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .featuresTop h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 110px;
+  }
+  .featuresTop p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .TopFeature p {
+    font-size: 10px;
+  }
+  .TopFeature {
+    margin-top: 65px;
+    padding: 0 15px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  }
+  .FeatureBox {
+    margin-top: 50px;
+    flex-direction: column;
+    grid-gap: 30px;
+  }
+  .FeatureBox.oddClass,
+  .BarCodeText {
+    flex-direction: column;
+  }
+  .featureBarCode {
+    flex-direction: column;
+    max-height: inherit;
+  }
+  .BarCodeForm {
+    top: inherit;
+  }
+  .barCodeFormHeading {
+    text-align: center;
+  }
+  .BarCodeText .brHeading {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 48px;
+  }
+  .BarCodeForm {
+    max-width: calc(100% + 50px);
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .TopFeature {
+    grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+  }
+}

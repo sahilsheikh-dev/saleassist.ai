@@ -1,0 +1,125 @@
+@import "../../utilities/variables.scss";
+
+.safemeet-btn {
+  cursor: pointer;
+  border: none;
+  color: $white;
+  background-color: $blue;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  @media screen and (max-width: 1200px) {
+    font-size: 0.8rem;
+  }
+}
+
+.safemeet-nav-btn {
+  margin-top: 0 !important;
+}
+
+.book-a-demo-white-btn {
+  color: $blue;
+  background-color: $white;
+}
+
+.safemeet-btn-2 {
+  border: none;
+  height: 64px;
+  width: 215px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.safemeet-btn-demo {
+  border: none;
+  height: 50px;
+  width: 190px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.safemeet-btn-3 {
+  margin-top: 20px;
+  border: 3px solid $black;
+  width: 215px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: 0.4s;
+  cursor: pointer;
+  @media screen and (max-width: 1024px) {
+    margin-top: 0px;
+  }
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}
+
+.safemeet-btn-black {
+  color: $white;
+  background-color: $black;
+}
+
+.safemeet-btn-blue {
+  color: $white;
+  background-color: $blue;
+}
+
+.safemeet-login-btn {
+  cursor: pointer;
+  border: none;
+  color: $white;
+  background-color: $blue;
+  width: 212px;
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  img {
+    margin-left: 5px;
+    vertical-align: middle;
+    height: 22px;
+  }
+}
+
+.btn-learn-more {
+  width: 132px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.btn-more-ways {
+  width: 150px;
+  height: 35px;
+  border: 2.5px solid $white;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 14px;
+  color: $white;
+  cursor: pointer;
+}
+
+.btn-try-free-version-link {
+  flex: 1;
+  button {
+    width: 100%;
+  }
+}
+
+.start-free-trail-btn {
+  @media screen and (max-width: 1024px) {
+    width: 150px !important;
+  }
+  @media screen and (max-width: 556px) {
+    width: 120px !important;
+    font-size: 11px !important;
+  }
+}

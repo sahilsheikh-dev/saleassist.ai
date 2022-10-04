@@ -1,0 +1,15 @@
+<svg width="29" height="51" viewBox="0 0 29 51" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="24.334" cy="4" r="4" fill="black"/>
+<rect x="1" y="3.33337" width="24.6667" height="46.6667" rx="4" stroke="white"/>
+<line x1="8.16602" y1="5.5" x2="18.4993" y2="5.5" stroke="white" stroke-linecap="round"/>
+<rect x="5.75" y="19.75" width="6.5" height="5.5" fill="#4285F4" stroke="white" stroke-width="1.5"/>
+<rect x="14.5508" y="19.75" width="6.5" height="5.5" fill="#4285F4" stroke="white" stroke-width="1.5"/>
+<rect x="5.75" y="28.75" width="6.5" height="5.5" fill="#4285F4" stroke="white" stroke-width="1.5"/>
+<rect x="13.8008" y="28" width="8" height="7" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="translate(0 -0.0714286) scale(0.015625 0.0178571)"/>
+</pattern>
+<image id="image0" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+</defs>
+</svg>

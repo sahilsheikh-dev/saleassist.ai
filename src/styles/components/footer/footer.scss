@@ -1,0 +1,225 @@
+@import "../../utilities/variables.scss";
+
+.safemeet-footer-links {
+  color: $white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.safemeet-footer {
+  background-color: $black;
+  padding: 50px 0;
+  .logo {
+    width: 125px;
+  }
+
+  h4 {
+    color: $white;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+  }
+
+  h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  a {
+    color: #c4c4c4;
+    font-size: 18px;
+    @media screen and (max-width: 556px) {
+      font-size: 15px;
+    }
+    @media screen and (max-width: 460px) {
+      font-size: 13px;
+    }
+  }
+  &-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &-col-1 {
+      flex: 1.5;
+      @media screen and (max-width: 1024px) {
+        flex: 100%;
+      }
+      @media screen and (max-width: 556px) {
+        margin-bottom: 20px;
+      }
+    }
+    &-col-2 {
+      flex: 1;
+      @media screen and (max-width: 1024px) {
+        flex: 100%;
+        align-self: flex-start;
+      }
+      p {
+        color: $white;
+        font-size: 17px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 1200px) {
+          font-size: 15px;
+        }
+      }
+      .inputBox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media screen and (max-width: 556px) {
+          grid-gap: 15px;
+        }
+      }
+      .fMobileBox {
+        width: 100%;
+        display: flex;
+        background: $footer-input-bg;
+        border-radius: 5px;
+        margin-top: 15px;
+      }
+
+      .fMobileBox input {
+        border-radius: 0 5px 5px 0;
+        background: transparent;
+        border-left: solid 1px #000;
+      }
+      .fMobileBox .cuntcode {
+        max-width: 70px;
+        padding: 0 10px;
+        background: transparent;
+        color: $white;
+        border: none;
+        margin-right: 10px;
+      }
+      input {
+        width: 100%;
+        flex: 1;
+        height: 45px;
+        padding: 15px;
+        font-size: 16px;
+        color: $white;
+        background: $footer-input-bg;
+        border: none;
+        border-radius: 5px;
+        @media screen and (max-width: 556px) {
+          width: calc(100%);
+          height: 45px;
+          font-size: 15px;
+        }
+        &:focus {
+          outline: none;
+        }
+
+        &::placeholder {
+          color: $white;
+        }
+      }
+      button {
+        color: $footer-bg-color;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: $demo-bg-color;
+        border: none;
+        height: 45px;
+        width: 100%;
+        margin-top: 15px;
+        @media screen and (max-width: 556px) {
+          height: 45px;
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+
+.footer-nested-row {
+  align-self: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-right: 15px;
+  &-col-1 {
+    flex: 1;
+    align-self: flex-start;
+  }
+  &-col-2 {
+    flex: 1;
+    align-self: flex-start;
+  }
+}
+
+.footer-social-icons {
+  width: 30px;
+  cursor: pointer;
+}
+
+.footer-social-icons-utube {
+  width: 36px;
+  cursor: pointer;
+}
+
+.safemeet-footer-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  @media screen and (max-width: 556px) {
+    padding-top: 10px;
+  }
+  @media screen and (max-width: 440px) {
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  div {
+    margin-right: 20px;
+    @media screen and (max-width: 440px) {
+      margin-right: 5px;
+    }
+  }
+}
+
+.safemeet-links {
+  font-size: 13px !important;
+}
+
+.safemeet-nowrap {
+  white-space: pre-wrap !important;
+}
+.addressBox {
+  display: inline-flex;
+  grid-gap: 40px;
+}
+.addressDiv {
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px 15px 30px;
+  h4 {
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 0 !important;
+    font-size: 14px;
+  }
+  p {
+    font-weight: normal;
+    color: #000 !important;
+    margin-bottom: 0 !important;
+    line-height: 18px;
+    font-size: 12px !important;
+  }
+  .Flag {
+    position: absolute;
+    left: -23px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}

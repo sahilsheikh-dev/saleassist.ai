@@ -1,0 +1,52 @@
+.safemeet-newspaper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.safemeet-newsroom-card {
+  flex: 1;
+  @media screen and (max-width: 1200px) {
+    flex: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 556px) {
+  }
+  @media screen and (max-width: 460px) {
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    img {
+      width: 360px;
+      height: 270px;
+      @media screen and (max-width: 460px) {
+        width: 100%;
+      }
+    }
+    h6 {
+      padding: 5px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      margin-bottom: 10px;
+      margin-top: 5px;
+      @media screen and (max-width: 1200px) {
+        text-align: center;
+      }
+    }
+    p {
+      padding: 0 5px;
+      color: rgba(0, 0, 0, 1);
+      text-align: center;
+      @media screen and (max-width: 1200px) {
+        text-align: center;
+      }
+    }
+  }
+}

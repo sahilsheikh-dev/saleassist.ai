@@ -1,0 +1,103 @@
+//z-index of mob-navbar is 100
+
+//z-index of mob-navbar item is 50
+
+.safemeet-container {
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+  @media screen and (max-width: 1200px) {
+    max-width: 980px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 740px;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 540px;
+  }
+  @media screen and (max-width: 556px) {
+    max-width: 440px;
+  }
+  @media screen and (max-width: 460px) {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.safemeet-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.safemeet-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.safemeet-col {
+  flex: 1;
+}
+
+.safemeet-text-left {
+  text-align: left;
+}
+
+.safemeet-text-right {
+  text-align: right;
+}
+
+.safemeet-text-center {
+  text-align: center;
+}
+//margin and padding
+@for $i from 1 through 5 {
+  //margin all over
+  .safemeet-mg-#{$i} {
+    margin: $i * 1rem !important;
+  }
+  //margin specific side SCSS
+  .safemeet-mg-t-#{$i} {
+    margin-top: $i * 1rem !important;
+  }
+  .safemeet-mg-r-#{$i} {
+    margin-right: $i * 1rem !important;
+  }
+  .safemeet-mg-b-#{$i} {
+    margin-bottom: $i * 1rem !important;
+  }
+  .safemeet-mg-l-#{$i} {
+    margin-left: $i * 1rem !important;
+  }
+
+  //padding all-over
+  .safemeet-pd-#{$i} {
+    padding: $i * 1rem !important;
+  }
+
+  //padding specific side SCSS
+  .safemeet-pd-t-#{$i} {
+    padding-top: $i * 1rem !important;
+  }
+  .safemeet-pd-r-#{$i} {
+    padding-right: $i * 1rem !important;
+  }
+  .safemeet-pd-b-#{$i} {
+    padding-bottom: $i * 1rem !important;
+  }
+  .safemeet-pd-l-#{$i} {
+    padding-left: $i * 1rem !important;
+  }
+}
+
+.safemeet-error {
+  color: $error-span-color;
+}
+
+.safemeet-sm-mg-b-2 {
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 30px !important;
+  }
+}

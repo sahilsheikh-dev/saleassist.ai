@@ -1,0 +1,47 @@
+.safemeet-trusted-by-many-companies{
+    h1{
+        font-weight: 400;
+        font-size: 48px;
+        @media screen and (max-width:768px){
+            font-size: 42px;
+        }
+        @media screen and (max-width:556px){
+            font-size: 31px;
+        }
+        @media screen and (max-width:460px){
+            font-size: 20px;
+        }
+    }
+}
+
+.safemeet-clients{
+    background-color: $white;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    @media screen and (max-width:1024px){
+        height: auto;
+    }
+    img{
+        width: 140px;
+        @media screen and (max-width:1200px){
+            width: 130px;
+        }
+        @media screen and (max-width:1024px){
+            width: 120px;
+            margin: 15px 0;
+        }
+        @media screen and (max-width:768px){
+            width: 90px;
+        }
+        @media screen and (max-width:556px){
+            width: 60px;
+        }
+        @media screen and (max-width:460px){
+            width: 40px;
+        }
+    }
+}

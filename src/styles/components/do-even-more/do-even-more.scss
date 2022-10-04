@@ -1,0 +1,118 @@
+@import "../../utilities/variables.scss";
+
+.safemeet-do-even-more{
+    h1{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    &-row{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+}
+
+.safemeet-do-even-more-card{
+    width: 285px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $do-even-more-card-bg-color;
+    &-upper{
+        height: 175px;
+        padding: 20px;
+        width: 100%;
+        background-color: $blue;
+        background-image: url("../../../assests/card-bg-lines/card-bg-lines.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-lower{
+        height: 239px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        &-row{
+            width: 100% !important;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            span{
+                font-size: 18px;
+                color: $do-even-more-card-title-color;
+                font-style: italic;
+            }
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 400;
+            color: $do-even-more-card-sub-title-color;
+            line-height: 30px;
+        }
+
+    }
+}
+
+
+.msg-box{
+    max-width: 200px;
+    font-size: 14px;
+    line-height: 18px;
+    float: right;
+    background-color: $white;
+    padding: 8px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    margin-bottom: 20px;
+    &-link{
+        font-size: 10px;
+        color: $grey;
+        }
+}
+
+.meeting-schedule{
+    background-color: $black;
+    padding: 10px;
+    color: $white;
+    font-size: 18px;
+}
+
+.btns{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    .accept{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $white;
+        display: inline-block;
+    }
+    
+    .change-time{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $white;
+        display: inline-block;
+    }
+}
+
+.msg-box-left{
+    font-size: 18px;
+    line-height: 18px;
+    float: left;
+    background-color: $white;
+    padding: 8px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    display: block;
+    margin-bottom: 20px;
+}

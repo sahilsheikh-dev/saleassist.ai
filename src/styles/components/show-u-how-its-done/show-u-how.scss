@@ -1,0 +1,29 @@
+.safemeet-show-u-how{
+    h1{
+        font-size: 36px;
+        font-weight: 100 ;
+        @media screen and (max-width:768px){
+            font-size: 30px;
+        }
+        @media screen and (max-width:556px){
+            font-size: 25px;
+        }
+        @media screen and (max-width:460px){
+            font-size: 17px;
+        }
+    }
+
+    &-video-container{
+        margin-top: 80px;
+        @media screen and (max-width:1200px){
+            margin-top: 50px;
+        }
+        @media screen and (max-width:556px){
+         margin-top: 20px;   
+        }
+        img{
+            width: 100%;
+            
+        }
+    }
+}

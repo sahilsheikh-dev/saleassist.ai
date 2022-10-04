@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1089.355" height="175.057" viewBox="0 0 1089.355 175.057">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1292ff"/>
+      <stop offset="1" stop-color="#7b92d7"/>
+    </linearGradient>
+    <filter id="Ellipse_448" x="0" y="78.042" width="91" height="91" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.184"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.942" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1292ff"/>
+      <stop offset="1" stop-color="#6278ba"/>
+    </linearGradient>
+  </defs>
+  <g id="blueBg" transform="translate(-147 -1536.958)">
+    <path id="Untitled-1" d="M285.133,10.8c-8.941.912-9.681,1.651-10.595,10.581-.914-8.93-1.654-9.669-10.595-10.581,8.941-.912,9.681-1.651,10.595-10.581C275.452,9.145,276.194,9.885,285.133,10.8Zm61.7,153.106c-8.941.912-9.681,1.651-10.594,10.582-.912-8.93-1.653-9.669-10.593-10.582,8.941-.912,9.681-1.651,10.593-10.58C337.153,162.257,337.894,162.99,346.834,163.9ZM21.189,138.6c-8.941.911-9.681,1.651-10.595,10.58C9.681,140.254,8.941,139.514,0,138.6c8.941-.912,9.681-1.651,10.595-10.581C11.508,136.951,12.248,137.69,21.189,138.6Zm152.4,33.4a2.157,2.157,0,1,1-2.153-2.151A2.157,2.157,0,0,1,173.588,172Zm-217.5,1.108a2.157,2.157,0,0,1-2.154,2.16,2.157,2.157,0,0,1-2.159-2.156,2.157,2.157,0,0,1,2.157-2.158,2.156,2.156,0,0,1,2.157,2.153ZM123.267,78.336a2.157,2.157,0,1,1-2.157-2.153,2.157,2.157,0,0,1,2.157,2.153Zm287.37,26.573a2.157,2.157,0,1,1-2.157-2.153,2.157,2.157,0,0,1,2.157,2.153ZM493,138.6a2.157,2.157,0,1,1-2.156-2.155A2.157,2.157,0,0,1,493,138.6ZM29.675,23.531a2.157,2.157,0,1,1-2.151-2.153A2.157,2.157,0,0,1,29.675,23.531ZM459.959,2.37A2.157,2.157,0,1,1,457.8.216a2.157,2.157,0,0,1,2.157,2.153Zm-282.284.642a2.156,2.156,0,1,1-1.415-2.7,2.156,2.156,0,0,1,1.415,2.7Z" transform="translate(340.352 1536.743)" fill="#fff" fill-rule="evenodd" opacity="0.25"/>
+    <path id="Untitled-1-2" data-name="Untitled-1" d="M271.191,172a2.157,2.157,0,1,0,2.153-2.151A2.157,2.157,0,0,0,271.191,172Zm217.5,1.108a2.157,2.157,0,1,0,2.157-2.153,2.157,2.157,0,0,0-2.157,2.153ZM391.512,78.336a2.157,2.157,0,1,0,2.157-2.153,2.157,2.157,0,0,0-2.157,2.153ZM-48.224,138.6a2.157,2.157,0,0,0,2.156,2.159,2.157,2.157,0,0,0,2.158-2.157,2.157,2.157,0,0,0-2.158-2.157,2.155,2.155,0,0,0-2.156,2.155ZM415.1,23.531a2.157,2.157,0,1,0,2.151-2.153A2.157,2.157,0,0,0,415.1,23.531Zm-148-20.52a2.156,2.156,0,1,0,1.415-2.7,2.156,2.156,0,0,0-1.415,2.7Z" transform="translate(743.352 1536.743)" fill="#fff" fill-rule="evenodd" opacity="0.25"/>
+    <g id="Group_7847" data-name="Group 7847" transform="translate(165.07 1632.768)" opacity="0.157">
+      <g transform="matrix(1, 0, 0, 1, -18.07, -95.81)" filter="url(#Ellipse_448)">
+        <circle id="Ellipse_448-2" data-name="Ellipse 448" cx="27.5" cy="27.5" r="27.5" transform="translate(18 96.04)" fill="url(#linear-gradient)"/>
+      </g>
+      <ellipse id="Ellipse_449" data-name="Ellipse 449" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(14.93 40.232)" fill="url(#linear-gradient-2)"/>
+      <ellipse id="Ellipse_452" data-name="Ellipse 452" cx="2.5" cy="3" rx="2.5" ry="3" transform="translate(43.93 20.232)" fill="url(#linear-gradient-2)"/>
+      <circle id="Ellipse_450" data-name="Ellipse 450" cx="9" cy="9" r="9" transform="translate(10.93 16.232)" fill="url(#linear-gradient-2)"/>
+      <ellipse id="Ellipse_451" data-name="Ellipse 451" cx="5" cy="5.5" rx="5" ry="5.5" transform="translate(28.93 6.232)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

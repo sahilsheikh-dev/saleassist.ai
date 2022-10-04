@@ -1,0 +1,124 @@
+
+[
+    {
+        "heading": "AI Conversation",
+        "imagePath":"",
+        "subHeading": "AI Chat built on worlds most powerful NLP engine",
+        "Text": "Leverage the power of conversational AI to upgrade the customer service experience, drive conversions and save a lot on your operational costs. AI conversations give life and a magical human touch to your customer engagements.",
+        "list": [
+            {
+                "listText":"Improves customer retention"
+            },
+            {
+                "listText":"Delivers unified customer experience"
+            },
+            {
+                "listText":"Boosts sales conversion"
+            },
+            {
+                "listText":"Reduces workload of the customer support team"
+            }
+        ]
+    },
+    {
+        "heading": "Video Review",
+        "imagePath":"",
+        "subHeading": "Capture Video Reviews via Button, QR & Link",
+        "Text": "Redefine the modern video workflow with our video review solutions. SaleAssist optimizes the video review and approval proofing process for creative teams all around the world.Unorganized client feedback might hamper your entire production. SaleAssists video review is the solution.",
+        "list": [
+            {
+                "listText":"Helps on knowing more about customers"
+            },
+            {
+                "listText":"Get amazing feedbacks from them"
+            },
+            {
+                "listText":"Highlights the loopholes present in your services"
+            },
+            {
+                "listText":"More convenient for the customers"
+            }
+        ]
+    },
+    {
+        "heading": "QR Code",
+        "imagePath":"",
+        "subHeading": "Dynamic QR code capable of live video conversations",
+        "Text": "Delight your prospects and customers with the best video assistant solutions just by scanning a QR code. Just open your camera and scan the QR code to watch the video for quick customer query resolution.",
+        "list": [
+            {
+                "listText":"Very easy to use"
+            },
+            {
+                "listText":"Boosts the `call to action rates`"
+            },
+            {
+                "listText":"Promotes sharing and networking"
+            },
+            {
+                "listText":"Best for non-tech savvy customers"
+            }
+        ]
+    },
+    {
+        "heading": "Nudges",
+        "imagePath":"",
+        "subHeading": "Automate Notifications with pre-built templates",
+        "Text": "Send gentle reminders and offer details to your customers in a user-friendly way. It`s the best way to attract new customers and retain the existing ones. Deliver a consistent customer experience through nudges.",
+        "list": [
+            {
+                "listText":"Helps on knowing more about customers"
+            },
+            {
+                "listText":"Get amazing feedbacks from them"
+            },
+            {
+                "listText":"Highlights the loopholes present in your services"
+            },
+            {
+                "listText":"More convenient for the customers"
+            }
+        ]
+    },
+    {
+        "heading": "Video Chat",
+        "imagePath":"",
+        "subHeading": "Live Video Calls with powerful collaboration features",
+        "Text": "Stay one step ahead of your competitors by providing visual communication. The built-in video chatting technology by SaleAssist allows your customers to connect in person no matter their geographical location. Resolve customer issues more interactively and improve customer satisfaction.",
+        "list": [
+            {
+                "listText":"Helps agent in understanding customer query in a better way"
+            },
+            {
+                "listText":"Improves customer engagement"
+            },
+            {
+                "listText":"Offers customer-friendly experience"
+            },
+            {
+                "listText":"Enhances overall brand experience"
+            }
+        ]
+    },
+    {
+        "heading": "Co Browsing",
+        "imagePath":"",
+        "subHeading": "Type, Click & Scroll for your customers",
+        "Text": "Co-browse your way to a better digital experience. View and interact with your customers’ browsers when they get stuck. Help your customer troubleshoot their issues by collaborating with them on-screen.",
+        "list": [
+            {
+                "listText":"Promotes better collaboration"
+            },
+            {
+                "listText":"Leads to higher customer satisfaction"
+            },
+            {
+                "listText":"Best way to address technical customer query"
+            },
+            {
+                "listText":"Higher conversion rate"
+            }
+        ]
+    }
+    
+]

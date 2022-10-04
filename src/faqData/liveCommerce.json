@@ -1,0 +1,30 @@
+[
+    {
+        "question":"If I start with a certain plan can I upgrade?",
+        "ans":"Absolutely! Any time, just go to the Organization settings tab (in the SaleAssist panel) and click on the upgrade button"
+    },
+    {
+        "question":"What happens if I cancel?",
+        "ans":"You may cancel your subscription any time by going to the SaleAssist dashboard Organization settings and cancel. Your next month billing wont happen post cancellation."
+    },
+    {
+        "question":"What if I have multiple websites?",
+        "ans":"No problem, in standard & pro plan, there is no limit to how many websites you integrate."
+    },
+    {
+        "question":"How many widgets, buttons, QR code etc i can generate?",
+        "ans":"In standard & pro plan, there is no limit to how many widgets/buttons/QR you generate"
+    },
+    {
+        "question":"Is there any limit to number of conversations, or duration of conversations?",
+        "ans":"No there is no limit to number of conversations or duration of conversations in any of the plan."
+    },
+    {
+        "question":"How many members can use the platform?",
+        "ans":"In starter plan , you have 1 member limit. In Standard, 5 members can use and in Pro, 30 members can use."
+    },
+    {
+        "question":"Do you do custom feature development?",
+        "ans":"Yes. We have an open API and a Professional Services Team that loves to create custom solutions. This is applicable to Enterprise level clients."
+    }
+]

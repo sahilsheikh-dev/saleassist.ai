@@ -1,0 +1,39 @@
+.safemeet-construction{
+    height: 100vh;
+    &-row{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 500px;
+            @media screen and (max-width:1024px) {
+                width: 400px;                
+            }
+            @media screen and (max-width:556px) {
+                width: 350px;                
+            }
+            @media screen and (max-width:440px) {
+                width: 280px;                
+            }
+        }
+        h1{
+            font-weight: 400;
+            font-size: 2rem;
+            @media screen and (max-width:768px){
+                font-size: 1.8rem;
+            }
+            @media screen and (max-width:556px){
+               font-size: 1.5rem;
+             }
+             @media screen and (max-width:440px){
+                font-size: 1rem;
+              }
+            span{
+                font-weight: 900;
+                color: red;
+            }
+        }
+    }
+}

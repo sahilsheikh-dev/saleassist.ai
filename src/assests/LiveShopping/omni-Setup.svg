@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 62.7 63" style="enable-background:new 0 0 62.7 63;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Ellipse_556);}
+	.st1{fill:#FFEAC4;}
+	.st2{fill:#F0BC5E;}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="111" id="Ellipse_556" width="111" x="0" y="0">
+	<feOffset  input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="8"></feGaussianBlur>
+	<feFlood  flood-color="#c4c4c4" flood-opacity="0.161"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g id="omni-Setup" transform="translate(-843 -2500)">
+	<g transform="matrix(1, 0, 0, 1, 843, 2500)" class="st0">
+		<circle id="Ellipse_556-2_00000041254869323067285160000003502871584167216002_" class="st1" cx="31.5" cy="31.5" r="31.5"/>
+	</g>
+	<g id="omni-Setup-2" transform="translate(881.498 2538.499)">
+		<g id="Group_10594" transform="translate(0.999 3.547)">
+			<rect id="Rectangle_5767" x="-24" y="-24" class="st2" width="7.6" height="6.4"/>
+		</g>
+		<g id="Group_10595" transform="translate(2.549 24.228)">
+			<path id="Path_15541" class="st2" d="M-16.8-24H-23c-0.6,0-1,0.5-1,1l0,0v5.2h8.3V-23C-15.7-23.5-16.2-24-16.8-24
+				C-16.8-24-16.8-24-16.8-24z"/>
+		</g>
+		<g id="Group_10596" transform="translate(23.196 1.516)">
+			<path id="Path_15542" class="st2" d="M-14.7-18.8H-24V-23c0-0.6,0.5-1,1-1l0,0h7.2c0.6,0,1,0.5,1,1L-14.7-18.8z"/>
+		</g>
+		<g id="Group_10597" transform="translate(26.468 25.194)">
+			<rect id="Rectangle_5768" x="-24" y="-24" class="st2" width="5.1" height="6.4"/>
+		</g>
+		<g id="Group_10598" transform="translate(1 1)">
+			<path id="Path_15543" d="M-22.5-10.6h2.1V-8h5v-1h-4v-1.5h2.1c0.9,0,1.5-0.7,1.5-1.5v-10.3c0-0.9-0.7-1.5-1.5-1.5h-5.2
+				c-0.9,0-1.5,0.7-1.5,1.5v10.3C-24-11.3-23.3-10.6-22.5-10.6z M-17.3-11.6h-5.2c-0.3,0-0.5-0.2-0.5-0.5v-2.6h6.2v2.6
+				C-16.8-11.8-17-11.6-17.3-11.6z M-23-15.7v-5.2h6.2v5.2H-23z M-22.5-23h5.2c0.3,0,0.5,0.2,0.5,0.5v0.5H-23v-0.5
+				C-23-22.7-22.7-23-22.5-23C-22.5-23-22.5-23-22.5-23L-22.5-23z"/>
+			<rect id="Rectangle_5769" x="-21.5" y="-13.8" width="2.5" height="1.3"/>
+			<path id="Path_15544" d="M6.5-24h-7.2c-0.9,0-1.5,0.7-1.5,1.5v5.2c0,0.9,0.7,1.5,1.5,1.5h1.6v1h-1v1h2.6v5.2H0v1h3.4v-6.2h2.6v-1
+				h-1v-1h1.5c0.9,0,1.5-0.7,1.5-1.5v-5.2C8-23.3,7.3-24,6.5-24z M-0.8-23h7.2C6.7-23,7-22.7,7-22.5v3.6h-8.3v-3.6
+				C-1.3-22.7-1.1-23-0.8-23C-0.8-23-0.8-23-0.8-23z M3.9-14.7H1.8v-1h2.1L3.9-14.7z M6.5-16.8h-7.2c-0.3,0-0.5-0.2-0.5-0.5v-0.5H7
+				v0.5C7-17,6.7-16.8,6.5-16.8C6.5-16.8,6.5-16.8,6.5-16.8L6.5-16.8z"/>
+			<path id="Path_15545" d="M-13.7,0.3c0-0.9-0.7-1.5-1.5-1.5h-3.1v-4.6h1.6v-1h-2.6v5.7h-2.1c-0.9,0-1.5,0.7-1.5,1.5v4.6h-1v1.5
+				c0,0.9,0.7,1.5,1.5,1.5h8.3c0.9,0,1.5-0.7,1.5-1.5V4.9h-1V0.3z M-21.9,0.3c0-0.3,0.2-0.5,0.5-0.5h6.2c0.3,0,0.5,0.2,0.5,0.5v4.6
+				h-7.2V0.3z M-13.7,6.5c0,0.3-0.2,0.5-0.5,0.5h-8.3C-22.7,7-23,6.7-23,6.5V5.9h9.3V6.5z"/>
+			<rect id="Rectangle_5770" x="1.5" y="0.2" width="1.3" height="1.3"/>
+			<rect id="Rectangle_5771" x="5.3" y="5.3" width="1.3" height="1.3"/>
+			<rect id="Rectangle_5772" x="4" y="0.2" width="2.5" height="1.3"/>
+			<rect id="Rectangle_5773" x="1.5" y="5.3" width="2.5" height="1.3"/>
+			<path id="Path_15546" d="M4.4-6.5H0.8v1h2.6v4.1h-3.6V8H8v-9.3H4.4V-6.5z M0.8,7V3.9H7V7H0.8z M7,2.8H0.8v-3.1H7V2.8z"/>
+		</g>
+		<g id="Group_10600" transform="translate(7.711 11.324)">
+			<g id="Group_10599">
+				<path id="Path_15547" class="st2" d="M-9-12.6h-11.4c-2,0-3.6-1.6-3.6-3.6c0-1.7,1.2-3.2,2.9-3.5c0.6-1.6,2.1-2.7,3.9-2.7
+					c0.6,0,1.2,0.1,1.7,0.4c1.2-1.9,3.8-2.5,5.7-1.3c1.2,0.8,1.9,2.1,1.9,3.5c0,0.1,0,0.1,0,0.2c1.9,0.6,3,2.6,2.4,4.5
+					C-6-13.7-7.4-12.6-9-12.6L-9-12.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,178 @@
+.safemeet-about-us {
+    margin-top: 130px;
+    min-height: calc( 100vh - 35px - 80px);
+    @media screen and (max-width:1024px){
+        margin-top: 80px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 60px !important;
+        @media screen and (max-width:1024px){
+            text-align: center;
+        }
+    }
+}
+
+.safemeet-about-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    gap: 76px;
+    margin-bottom: 50px;
+    @media screen and (max-width:1024px){
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    &-col-1 {
+        flex: 1;
+        padding: 20px 0;
+        @media screen and (max-width:1024px){
+            flex: 100%;
+            padding: 20px 0 0 0;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 10px !important;
+            line-height: 24px;
+        }
+    }
+
+    &-col-2 {
+        flex: 1.2;
+        align-self: stretch;
+        @media screen and (max-width:1024px){
+            flex: 100%;
+            padding-top: 20px;
+        }
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.safemeet-history-fund-clients {
+    background-color: $blue;
+    padding: 30px 0;
+
+    &-container {
+        color: $white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        h1 {
+            margin: 0 0 15px 0 !important;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.safemeet-our-team {
+    margin: 50px auto;
+    h1 {
+        text-align: center;
+        margin-bottom: 50px !important;
+    }
+    &-flexbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        @media screen and (max-width:1024px){
+            gap:20px
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+    width: 200px;
+    margin: auto;
+    position: relative;
+    perspective: 150em;
+    &__side {
+        
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transition: all .6s ease;
+
+        &--front {
+            img{
+                width: inherit;
+                height: inherit;
+            }
+        }
+
+        &--back {
+            background-color: #c4c4c450;
+            color: $black;
+            transform: rotateY(180deg);
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &:hover &__side--front {
+        transform: rotateY(-180deg);
+    }
+
+    &:hover &__side--back {
+        transform: rotate(0);
+    }
+
+    &__description {
+        text-align: center;
+        h4,h5{
+            font-weight: 400;
+        }
+        padding: 1em 0;
+    }
+}
+
+.inner-container{
+    flex: 1;
+    @media screen and (max-width:1024px){
+        flex: 100%;
+        width: 100vw;
+    }
+}
+.safemeet-terms p{margin-bottom: 15px;}
+.safemeet-terms h2{margin-bottom: 20px;}
+.safemeet-terms h4{margin:15px 0 5px;font-size: 16px;}
+.safemeet-terms ul{text-align: left;padding-left: 20px;margin: 15px 0;}
+.safemeet-terms ul li{list-style-type: disc;padding: 0;line-height: 24px;}

@@ -1,0 +1,26 @@
+@import "../../utilities/variables.scss";
+
+.safemeet-navbar-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .safemeet-navbar-card-col-1{
+        align-self: flex-start;
+    }
+    .safemeet-navbar-card-col-2{
+        align-self: flex-start;
+        margin-left: 10px;
+        h5{
+            color: $black;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        p{
+            color: $grey;
+            font-size: 14px;
+        }
+    }
+}

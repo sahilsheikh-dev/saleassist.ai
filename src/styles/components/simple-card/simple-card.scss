@@ -1,0 +1,25 @@
+.safemeet-simple-card {
+    flex: 1;
+    padding: 20px;
+    @media screen and (max-width:1024px){
+        flex: 100%;
+    }
+    h4 {
+        font-weight: 400;
+        margin: 20px 0;
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+.safemeet-simple-card-show {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

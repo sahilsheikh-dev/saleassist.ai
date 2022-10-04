@@ -1,0 +1,75 @@
+@import "../../utilities/variables.scss";
+
+.Four-404-error{
+    height: 100vh;
+    background-color: $bg-error-page;
+    &-row{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-col-1{
+            margin-bottom: 30px;
+            .four-1{
+                position: relative;
+                right: -35px;
+                z-index: 8;
+                width: 132px;
+                
+                @media screen and (max-width:1024px){
+                    width: 100px;
+                }
+                @media screen and (max-width:556px){
+                    width: 80px;
+                }
+            }
+            .zero{
+                position: relative;
+                z-index: 9;
+                width: 152px;
+                @media screen and (max-width:1024px){
+                width: 120px;
+                }
+                @media screen and (max-width:556px){
+                    width: 100px;
+                }
+            }
+            .four-2{
+                width: 132px;
+                height: 100%;
+                position: relative;
+                left: -40px;
+                z-index: 10;
+                @media screen and (max-width:1024px){
+                    width: 100px;
+                }
+                @media screen and (max-width:556px){
+                   width: 80px;
+                }
+            }
+        }
+        h1{
+            font-weight: 400;
+            font-size: 2rem;
+            @media screen and (max-width:1024px){
+                font-size: 1.5rem;
+            }
+            @media screen and (max-width:556px){
+               font-size: 1.3rem;
+             }
+             @media screen and (max-width:440px){
+                font-size: 1rem;
+              }
+            span{
+                font-weight: 900;
+                color:$error-span-color !important;
+            }
+        }
+    }
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  }

@@ -1,0 +1,22 @@
+@import "../../utilities/variables.scss";
+
+.safemeet-customer-love-card{
+    flex: 1;
+    align-self: normal;
+    color: $white;
+    text-align: center;
+    @media screen and (max-width:1024px){
+        flex: 100%;
+    }
+    h5{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

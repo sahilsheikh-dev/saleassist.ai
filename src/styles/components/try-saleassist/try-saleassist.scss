@@ -1,0 +1,65 @@
+.safemeet-try-saleassist{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0 !important;
+    border-radius: 30px;
+    margin-bottom: 60px !important;
+    @media screen and (max-width:460px) {
+        padding: 30px 10px !important;
+    }
+    &-col-1{
+        flex: 1;
+        @media screen and (max-width:768px) {
+            flex: 100%;
+        }
+        text-align: center;
+        video{
+            width: 560px;
+            @media screen and (max-width:768px){
+                width: 480px;
+            }
+            @media screen and (max-width:556px){
+                width: 200px;
+            }
+            @media screen and (max-width:460px){
+                width: 200x;
+            }
+        }
+    }
+    &-col-2{
+        flex: 1;
+        @media screen and (max-width:768px) {
+            flex: 100%;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 40px !important;
+        }
+        input{
+            display: block;
+            width: 350px;
+            margin: auto;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-bottom: 40px;
+            background-color: transparent;
+            @media screen and (max-width:460px) {
+                width: 100%;
+            }
+        }
+        button{
+            display: block;
+            margin: auto !important;
+            @media screen and (max-width:460px) {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

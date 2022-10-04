@@ -1,0 +1,42 @@
+[
+    {
+        "question":"If I start with a certain plan can I upgrade?",
+        "ans":"Absolutely! Any time, just go to the Organization settings tab (in the SaleAssist panel) and click on the upgrade button"
+    },
+    {
+        "question":"Do you offer FREE trial?",
+        "ans":"Yes, we do offer FREE trial. Please contact us and we will activate it for you."
+    },
+    {
+        "question":"In popular plan, How am I billed when I add new members to the account? ",
+        "ans":"There is no additional billing. You can add as many members as you can?"
+    },
+    {
+        "question":"What if I have multiple websites?",
+        "ans":"No problem, in all the plans there is no limit to how many websites you integrate"
+    },
+    {
+        "question":"How many widgets, buttons, QR code etc i can generate? ",
+        "ans":"You can create as many widgets, buttons or QR code in all the plans"
+    },
+    {
+        "question":"Is there any limit to number of conversations, or duration of conversations? ",
+        "ans":"No there is no limit to number of conversations or duration of conversations in any of the plan. The total usage is calculated at month end and invoice raised accordingly"
+    },
+    {
+        "question":"What happens if I cancel? ",
+        "ans":"You may cancel your subscription any time by going to the SaleAssist dashboard  Organization settings and cancel"
+    },
+    {
+        "question":"Do you offer Video Sales people as well? ",
+        "ans":"Yes. If you have demand of Video Sales people, we provide video sales people to you."
+    },
+    {
+        "question":"In standard plan, how many members can use the platform? ",
+        "ans":"You can have upto 2 members use the platform in Standard plan."
+    },
+    {
+        "question":"Do you do custom development work? ",
+        "ans":"Yes. We have an open API and a Professional Services Team that loves to create custom solutions. Contact our team to learn more."
+    }
+]

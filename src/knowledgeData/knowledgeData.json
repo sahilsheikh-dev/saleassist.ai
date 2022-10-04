@@ -1,0 +1,179 @@
+{
+    "Installation & setup":[
+        {
+            "heading":"Dashboard Walkthrough",
+            "DetailsText":"<img src='/know/dashboard/dashBoard1.jpg' class='imgResponsive'><br/><b>Pre-installation requirements:</b> <br/> <ol><li>Register to SaleAssist Dashboard</li><li>Make sure you have access to your website's admin panel.</li><li>The SaleAssist Dashboard helps you to interact with your clients, show them the products on live call and monitor your analytics data.</li></ol> <br/> <b>Installation steps:</b> <br/> <ol><li>After you register, go to the 'Assets' tab:</li></ol><br/><img src='/know/1/step1.jpg' class='imgResponsive'><br/><b>Header Section: -</b> <br/><img src='/know/dashboard/dashBoard2.jpg' class='imgResponsive'><br/> <b>Availability Status</b>:  This is to set your status to Online OR Offline<br/> <b>Home</b>: This is to go to Dashboard.<b>Leads:</b> This is to go to the Leads section where you can see all new and old leads and their conversations happened in the past.<br/><b>Assets:</b> - This button is to go to all backend settings for Widgets, Products, Media and Orders. <br/> <b>Notifications:</b> - This is for all the alerts in your account.<br/><img src='/know/dashboard/dashBoard3.jpg' class='imgResponsive'><br/> <b>Settings:</b> - Above is the reference for the settings section where you can see Organization Settings, change password, Switch Organization (if you are part of multiple organizations), Resources for learning more about SaleAssist. <br/> <b>Logout:</b> - Logout from SaleAssist.ai dashboard. <br/> Let's go briefly over the Dashboard’s tabs. Starting with the Meetings section:<br/><img src='/know/dashboard/dashBoard4.jpg' class='imgResponsive'> <br/> <b>New Meetings :-</b> Create instant meetings like google meet or any other meeting platform to connect with anyone like a customer or team member.<br/><img src='/know/dashboard/dashBoard5.jpg' class='imgResponsive'><br/> <b>Schedule Meetings :-</b> Schedule meetings with your customers. <br/><img src='/know/dashboard/dashBoard6.jpg' class='imgResponsive'><br/> <b>Live Stream :-</b> Go Live by creating a live stream and the same stream can go live on multiple social channels at the same time.<br/> <img src='/know/dashboard/dashBoard7.jpg' class='imgResponsive'><br/> <b>Refer:-</b> Refer meeting URLs with anyone to whom you want to join the same call. <br/> <b>Leads/Streams/Users:-</b><br/><img src='/know/dashboard/dashBoard8.jpg' class='imgResponsive'> <br/>Above is the section where you can select options from Leads, Streams OR Users. <br/> <b>Users</b> are the Agents invited to your organization or your team members. <br/> <b>Leads</b> are the captured leads in your account. <br/> <b>Streams</b> is the section where you can see the public chat coming during a live streaming show.",
+            "Image":""
+        }
+    ],
+    "GetStarted":[
+        {
+            "heading":"Login Page",
+            "DetailsText":"To begin first you need to visit the SaleAssist.ai website and click on the login button.",
+            "Image":"<img src='/know/1/step1.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Login / Sign Up",
+            "DetailsText":"Here you can quickly sign up with your Google account.",
+            "Image":"<img src='/know/1/step2.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Dashboard",
+            "DetailsText":"Once you are done, you would be landing on the meeting section where you could see all the options to schedule or have an instant meeting.",
+            "Image":"<img src='/know/1/step3.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Widgets",
+            "DetailsText":"First you need to click on widgets on your left panel.",
+            "Image":"<img src='/know/1/step4.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Widget Lists",
+            "DetailsText":"Here you can see many pre-configured widgets available.",
+            "Image":"<img src='/know/1/step5.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Widget Configurations",
+            "DetailsText":"You can click on website inquiries widget and look at various configuration options which are available starting from changing the user interfaces, changing the names of the widget, descriptions, etc.",
+            "Image":"<img src='/know/1/step6-1.jpg' class='imgResponsive'><img src='/know/1/step6-2.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"So here we are just putting a widget name, we can configure by choosing a different color matching your theme. We can upload a video or you can also put a video URL as a welcome video.",
+            "Image":"<img src='/know/1/step7-1.jpg' class='imgResponsive'><img src='/know/1/step7-2.jpg' class='imgResponsive'><img src='/know/1/step7-3.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"Here you can also see there are channels which are available which you can choose to give your client options to connect with you.",
+            "Image":"<img src='/know/1/step8.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"Then you can also put different configurations by which you can easily configure the widget and also choose a location on your website to show this widget.",
+            "Image":"<img src='/know/1/step9.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Integration Code",
+            "DetailsText":"Once you have saved all the configurations, you can go to the integration section.",
+            "Image":"<img src='/know/1/step10-1.jpg' class='imgResponsive'><img src='/know/1/step10-2.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"Here you can see that there are different options available like downloading a QR code, viewing the campaign page, or viewing a jump page.",
+            "Image":"<img src='/know/1/step11.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"The integration codes are readily available as a widget, as a button or as an iframe. From here you can easily copy the code and add it to the Header <head> section of your website , Button on any specific product page and Iframe on any contact page respectively.",
+            "Image":"<img src='/know/1/step12.jpg' class='imgResponsive'>"
+        }
+    ],
+    "WidgetIntegration":[
+        {
+            "heading":"Widget Integration",
+            "DetailsText":"First you need to click on widgets on your left panel.",
+            "Image":"<img src='/know/WidgetIntegration/1.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"List of Widgets",
+            "DetailsText":"Here you can see many pre-configured widgets available.",
+            "Image":"<img src='/know/WidgetIntegration/2.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Edit a Widget",
+            "DetailsText":"You can click on website inquiries and look at various configuration options which are available.",
+            "Image":"<img src='/know/WidgetIntegration/3.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Widget",
+            "DetailsText":"You can configure  changes in the widget by clicking on the widget tab. Here you can change the widget name, colour matching your theme. You can upload a video or you can also put a video URL as a welcome video.",
+            "Image":"<img src='/know/WidgetIntegration/4.png' class='imgResponsive'> <img src='/know/WidgetIntegration/4_1.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"Here you can also see there are channels which are available which you can choose to give your client options to connect with you.",
+            "Image":"<img src='/know/WidgetIntegration/5.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"",
+            "DetailsText":"Then you can also put different configurations by which you can easily configure the widget and also choose a location where it will be visible on your website.",
+            "Image":"<img src='/know/WidgetIntegration/6.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"User Experience:",
+            "DetailsText":"Next to the Widget tab there is a second tab named User Experience, This is the lead capturing form where you can allow trigger messages and time. You can also modify the welcome message from here.You can also customise the form by dragging and  dropping.",
+            "Image":"<img src='/know/WidgetIntegration/7.png' class='imgResponsive'> <img src='/know/WidgetIntegration/7_1.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Agent Mapping",
+            "DetailsText":"Next is the agent mapping tab, which is used to map the agents from the organisation. You can also adjust your working hours, working days and break hours from here.",
+            "Image":"<img src='/know/WidgetIntegration/8.png' class='imgResponsive'> <img src='/know/WidgetIntegration/8_1.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Invite Agents",
+            "DetailsText":"To invite an agent to your organisation you need to go on:",
+            "Image":"<ul class='listAlba'><li>Organisation</li><li>Access Control</li><li>Invite</li></ul> <img src='/know/WidgetIntegration/9.png' class='imgResponsive'>  <p>All you need to do is add the agent's mail id and assign the role to them.</p>"
+        },
+        {
+            "heading":"AI Bot",
+            "DetailsText":"Following the agent mapping, is the AI bot here you can add your FAQs and other options which you need the bot to answer the customer.",
+            "Image":"<img src='/know/WidgetIntegration/10.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Nudges",
+            "DetailsText":"Nudges will some kind of  pop ups on your website. By allowing this, you can add your own discount coupons,any sale that is going on OR any information you want to publish and get customers attention to it.",
+            "Image":"<p>If you don’t want them you just need to uncheck them and save.</p><img src='/know/WidgetIntegration/11.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"User Feedback",
+            "DetailsText":"User Feedback is a feedback form from the customer's side. Once the call is done,customers can give feedback and there are different ways to give feedback.",
+            "Image":"<ul class='listAlba'><li>Video Feedback</li><li>Audio Feedback</li><li>Text Feedback</li><li>Feedback form.</li></ul><p>You can also modify the form according to your preference.</p> <img src='/know/WidgetIntegration/12.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Agent Feedback",
+            "DetailsText":"This is the feedback form from the agent side to fill in some checklist to update customer’s behaviour and interest to follow up next time accordingly.",
+            "Image":"<img src='/know/WidgetIntegration/13.png' class='imgResponsive'>"
+        },
+        {
+            "heading":"Campaign Page",
+            "DetailsText":"This is  a one page website builder where anyone can create their own one pager website.",
+            "Image":"<img src='/know/WidgetIntegration/14.png' class='imgResponsive'> <img src='/know/WidgetIntegration/14_1.png' class='imgResponsive'>"
+        }
+    ],
+    "ReachBackLeads":[
+        {
+            "heading":"Step 1",
+            "DetailsText":"As a first step, you can actually respond back to the customer by writing any text which will be directly delivered to the person on email alternatively you can make a phone call back to the person which is an outbound telephony call.",
+            "Image":"<img src='/know/2/step1.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Step 2",
+            "DetailsText":"Next thing is you can also set up an instant video meet with the person by just sending an invite to the person’s email ID or alternatively to their phone number.",
+            "Image":"<img src='/know/2/step2.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Step 3",
+            "DetailsText":"Here from our meetings settings you can actually instantly create a meeting and put up an invite to the persons email ID or a phone number in real-time. The person can be notified about this particular meeting which they can join without any need to download or install any software, directly from their browser.",
+            "Image":"<img src='/know/2/step3.jpg' class='imgResponsive'><img src='/know/2/step3-1.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Step 4",
+            "DetailsText":"Each meeting has a unique link that you can click and copy the link and you can share them back essentially through our conversation panel.",
+            "Image":"<img src='/know/2/step4.jpg' class='imgResponsive'>"
+        },
+        {
+            "heading":"Step 5",
+            "DetailsText":"So, you can essentially reach back to the customer through our conversation panel and then also either a phone call or through a message like an email message like this.",
+            "Image":"<img src='/know/2/step5.jpg' class='imgResponsive'>"
+        }
+    ],
+    
+    "Tutorials":[
+        {
+            "heading":"Tutorials",
+            "DetailsText":"",
+            "Image":"<div class='videoBox'><div class='videoList'><p>How to Get Started with SaleAssist</p> <div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/HudUurDF3V4' allowfullscreen></iframe></div></div><div class='videoList'> <p>How to create and schedule meetings</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/mhi2igi7wXE' allowfullscreen></iframe></div></div><div class='videoList'> <p>How to create widget and integration code</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/dtHsRMnelkc' allowfullscreen></iframe></div></div><div class='videoList'> <p>How to Invite & Manage Agents</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/fAqjGa-jnUc' allowfullscreen></iframe></div></div><div class='videoList'> <p>How To Configure Widget Settings</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/snPAS6pQHu0' allowfullscreen></iframe></div></div><div class='videoList'> <p>How To Add Products for LiveStreaming event</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/T7XUWQFmhgM' allowfullscreen></iframe></div></div><div class='videoList'> <p>How To Create Live Streams ?</p><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/BwfkwAC3sAI' allowfullscreen></iframe></div></div></div>"
+        }
+    ]
+
+}
