@@ -183,7 +183,7 @@ export default class LifeCycle extends Component {
           marginTop: "50px",
           padding: "20px 0 70px 0",
           backgroundImage:
-          "linear-gradient(rgba(0,0,0,0) 0%, rgb(240, 227, 255) 5%, rgb(240, 227, 255) 95%, rgba(0,0,0,0)",
+            "linear-gradient(rgba(0,0,0,0) 0%, rgb(240, 227, 255) 5%, rgb(240, 227, 255) 95%, rgba(0,0,0,0)",
         }}
       >
         <div
@@ -196,10 +196,7 @@ export default class LifeCycle extends Component {
             Checkout our all offerings covering complete lifecycle of customer
           </h1>
           <div
-            className="safemeet-customer-lifecycle-row"
-            style={{
-              marginLeft: "100px",
-            }}
+            className="safemeet-customer-lifecycle-row lifecycle-row-ms"
           >
             <div className="safemeet-customer-lifecycle-row-col-1">
               {LifeCycle.map((item, index) => {

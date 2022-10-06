@@ -81,9 +81,12 @@
   @media screen and (max-width: 1024px) {
     margin: auto;
   }
-  @media screen and (max-width: 556px) {
-    width: 280px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
+  // @media screen and (max-width: 556px) {
+  //   width: 280px;
+  // }
 }
 
 /* This container is needed to position the front and back side */
@@ -149,5 +152,16 @@
   margin-top: auto;
   @media screen and (max-width: 1024px) {
     display: block;
+  }
+}
+
+.card-home-present {
+  margin: 0 auto;
+  box-shadow: 0 10px 15px 0 rgba(140, 146, 172, 0.3),
+    0 10px 30px 0 rgba(140, 146, 172, 0.3);
+  text-align: center;
+  border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 }

@@ -436,3 +436,15 @@
     width: 92%;
   }
 }
+
+.demo-margin {
+  margin-left: 150px;
+  @media screen and (max-width: 1200px) {
+    max-width: 100%;
+    margin-left: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}

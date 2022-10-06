@@ -56,17 +56,7 @@ export default class CardHomePresent extends Component {
         >
           {CardContent.map((item, index) => {
             return (
-              <div
-                key={index}
-                className=""
-                style={{
-                  margin: "0 auto",
-                  boxShadow:
-                    "0 10px 15px 0 rgba(140, 146, 172, 0.3), 0 10px 30px 0 rgba(140, 146, 172, 0.3)",
-                  textAlign: "center",
-                  borderRadius: "10px",
-                }}
-              >
+              <div key={index} className="card-home-present">
                 <Card
                   className={`safemeet-card-${index + 1}`}
                   image={item.image}

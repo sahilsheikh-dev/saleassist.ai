@@ -22,12 +22,7 @@ export default class Demo extends Component {
           }}
         >
           <div className="safemeet-demo-row">
-            <div
-              className="safemeet-demo-row-col-1 "
-              style={{
-                marginLeft: "120px",
-              }}
-            >
+            <div className="safemeet-demo-row-col-1 demo-margin">
               <h1>
                 Get started with
                 <br />

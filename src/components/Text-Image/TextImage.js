@@ -7,14 +7,19 @@ export default class TextImage extends Component {
     const { title, sub_title, details, btn, video, path, poster } = this.props;
     return (
       <div className="safemeet-container safemeet-text-row safemeet-mg-t-5">
-        <div className="safemeet-text-row-col-2"></div>
-        <div className="safemeet-text-row-col-1">
+        <div className="safemeet-text-row-col-2 disable-1200"></div>
+        <div
+          className="safemeet-text-row-col-1"
+          style={{
+            margin: "30px 0",
+          }}
+        >
           <div className="title-head safemeet-sm-mg-b-2">
             <h1 className="title">{title}</h1>
             <h1>{sub_title}</h1>
           </div>
-          <p className="safemeet-sm-mg-b-2">{details}</p>
-          <Link to={path}>
+          <p className="safemeet-sm-mg-b-2 margin-auto">{details}</p>
+          <Link className="margin-auto" to={path}>
             <button
               className=""
               style={{

@@ -138,28 +138,10 @@ export default class Showcase extends Component {
         {/* <div className="safemeet-container">
           <div className="homeLogo">{ClientLogo}</div>
         </div> */}
-        <div
-          className="safemeet-showcase"
-          style={{
-            padding: "50px 20px",
-          }}
-        >
+        <div className="safemeet-showcase">
           <div className="safemeet-container">
-            <h1
-              className="safemeet-text-center"
-              style={{
-                fontSize: "40px",
-                margin: "0 0 20px 0",
-              }}
-            >
-              Our Clients
-            </h1>
-            <h2
-              className="safemeet-text-center heading-margin"
-              style={{
-                fontSize: "24px",
-              }}
-            >
+            <h1 className="safemeet-text-center showcase-head">Our Clients</h1>
+            <h2 className="safemeet-text-center heading-margin showcase-subhead">
               Many brands are already using Saleassist to improve their customer
               experience
             </h2>

@@ -31,18 +31,24 @@ export default class ImageText extends Component {
             />
           </video>
         </div>
-        <div className="safemeet-text-row-col-1 img-txt-col-2">
+        <div
+          className="safemeet-text-row-col-1 img-txt-col-2"
+          style={{
+            margin: "30px 0",
+          }}
+        >
           <div className="title-head safemeet-sm-mg-b-2">
             <h1>ONE-TO-ONE</h1>
             <h1 className="title">VIRTUAL SHOPPING</h1>
           </div>
-
-          <p className="safemeet-sm-mg-b-2">
+          <p
+            className="safemeet-sm-mg-b-2 margin-auto padding-img-text"
+          >
             Give retail store like personalized and assisted shopping experience
             with live One-On-One Video chat
           </p>
           {path ? (
-            <Link to={path}>
+            <Link className="margin-auto" to={path}>
               <button
                 className=""
                 style={{

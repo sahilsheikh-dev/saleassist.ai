@@ -48,40 +48,17 @@ export default class HomeBanner extends Component {
         >
           {/* <Slider {...settings}> */}
           <div>
-            <div
-              className=" safemeet-home-page safemeet-pd-r-5 safemeet-pd-l-5"
-              style={
-                {
-                  // background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                  // url(${HomeGif})`,
-                }
-              }
-            >
+            <div className=" safemeet-home-page ">
               <div className="safemeet-container">
-                <div
-                  className="safemeet-home-page-row"
-                  style={{
-                    padding: "0 100px",
-                  }}
-                >
-                  <div className="safemeet-home-page-row-col-1">
+                <div className="safemeet-home-page-row home-paddingx-100">
+                  <div className="safemeet-home-page-row-col-1 mx-auto">
                     <div className="safemeet-sale-fast-sale-live">
-                      <h2
-                        style={{
-                          fontSize: "18px",
-                        }}
-                      >
+                      <h2 className="hero-head">
                         Sell <span>Fast</span>, Sell
                         <span> Live</span>
                       </h2>
                     </div>
-                    <h1
-                      style={{
-                        fontSize: "70px",
-                      }}
-                    >
-                      Live Video Shopping.
-                    </h1>
+                    <h1>Live Video Shopping.</h1>
                     <p
                       style={{
                         textAlign: "justify",
@@ -94,24 +71,11 @@ export default class HomeBanner extends Component {
                       standard dummy text ever since the 1500s.
                     </p>
                     <Link to="/demo">
-                      <button
-                        style={{
-                          background: "#000000",
-                          color: "#FFFFFF",
-                          marginTop: "15px",
-                          padding: "10px 18px",
-                          fontSize: "18px",
-                          fontWeight: "500",
-                          border: "1px solid #000000",
-                          borderRadius: "0px",
-                        }}
-                      >
-                        Book a Demo
-                      </button>
+                      <button className="hero-btn">Book a Demo</button>
                     </Link>
                     {/* <FormBody /> */}
                   </div>
-                  <div className="safemeet-home-page-row-col-2">
+                  <div className="safemeet-home-page-row-col-2 mx-auto">
                     <div className="HomeimageSection">
                       <img
                         src="/features/commerce/liveCommer.gif"

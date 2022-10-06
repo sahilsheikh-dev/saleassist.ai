@@ -3,6 +3,7 @@ import VideoText from "./vieoTestiCard";
 import Slider from "react-slick";
 import vivek from "../../assests/testimonial-logo/Viveks_Logo_With-Mask_1.webp";
 import Boxlog from "../../assests/testimonial-logo/boxLogo.webp";
+
 export default class VideoTestimonial extends Component {
   render() {
     const settings = {
