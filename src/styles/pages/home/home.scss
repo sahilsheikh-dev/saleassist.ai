@@ -7,9 +7,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  min-height: 100vh;
+  // min-height: 100vh;
   margin-top: 0%;
-  padding-bottom: 60px;
+  margin-bottom: 0%;
+  // padding-bottom: 60px;
   background: url("../../../assests/Home-Banner/homeBannerBg.svg") no-repeat top /
     100%;
   padding-left: 4rem;
@@ -254,6 +255,44 @@
   font-weight: 500;
   border: 1px solid #000000;
   border-radius: 0px;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  max-width: 400px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  @media screen and (max-width: 556px) {
+    max-width: 90%;
+  }
+}
+
+/* The Close Button */
+.close {
+  margin-left: auto;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1200px) {
@@ -270,9 +309,11 @@
   .hero-btn {
     font-size: 18px;
   }
+
   .home-paddingx-100 {
     padding: 0;
   }
+
   .hero-btn {
     background: #000000;
     color: #ffffff;

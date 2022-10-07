@@ -10,6 +10,42 @@ import { margin } from "@mui/system";
 import { Link } from "react-router-dom";
 
 export default class HomeBanner extends Component {
+  constructor(props) {
+    super(props);
+    this.modalOpen = this.modalOpen.bind(this);
+    this.modalClose = this.modalClose.bind(this);
+  }
+
+  modalOpen() {
+    var modal = document.getElementById("myModalHero");
+    var btn = document.getElementById("myBtn");
+
+    // btn.onclick = function () {
+    modal.style.display = "block";
+    // };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  }
+
+  modalClose() {
+    var modal = document.getElementById("myModalHero");
+    var span = document.getElementsByClassName("close")[0];
+
+    // span.onclick = function () {
+    modal.style.display = "none";
+    // };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  }
+
   render() {
     const settings = {
       dots: true,
@@ -43,7 +79,7 @@ export default class HomeBanner extends Component {
             marginTop: "0",
             paddingTop: "0",
             width: "100%",
-            height: "810px",
+            // height: "810px",
           }}
         >
           {/* <Slider {...settings}> */}
@@ -70,10 +106,18 @@ export default class HomeBanner extends Component {
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s.
                     </p>
-                    <Link to="/demo">
-                      <button className="hero-btn">Book a Demo</button>
-                    </Link>
-                    {/* <FormBody /> */}
+                    <button onClick={this.modalOpen} className="hero-btn">
+                      Book a Demo
+                    </button>
+                    <div id="myModalHero" class="modal">
+                      <div class="modal-content">
+                        <span onClick={this.modalClose} class="close">
+                          &times;
+                        </span>
+                        {/* <p>Some text in the Modal..</p> */}
+                        <FormBody />
+                      </div>
+                    </div>
                   </div>
                   <div className="safemeet-home-page-row-col-2 mx-auto">
                     <div className="HomeimageSection">
