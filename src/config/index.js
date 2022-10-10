@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:8000';
-// const BASE_URL = 'https://platform.saleassist.ai';
+// const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://platform.saleassist.ai';
 // const BASE_URL = 'https://platform-stg.saleassist.ai';
 
 const url = { 
