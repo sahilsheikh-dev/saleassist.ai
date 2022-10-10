@@ -94,7 +94,9 @@ export default class FormBody extends Component {
                 type="text"
                 name="name"
                 placeholder="Name*"
-                style={{}}
+                style={{
+                  background: "transparent",
+                }}
                 value={this.state.form_data.name}
                 required
                 onChange={(e) => {
@@ -106,6 +108,9 @@ export default class FormBody extends Component {
               <input
                 type="email"
                 name="email"
+                style={{
+                  background: "transparent",
+                }}
                 value={this.state.form_data.email}
                 placeholder="Email*"
                 required
@@ -136,6 +141,9 @@ export default class FormBody extends Component {
                 type="text"
                 name="mobile_number"
                 placeholder="Mobile number*"
+                style={{
+                  background: "transparent",
+                }}
                 required
                 value={this.state.form_data.mobile_number}
                 onChange={(e) => {
@@ -159,53 +167,55 @@ export default class FormBody extends Component {
           </form>
         )}
         {this.state.renderThanks && (
-          // <div style={{ color: "green", fontStyle: "italic" }}>
-          //   Thank you for submitting your request.
-          // </div>
           <div
             style={{
-              background: "white",
+              // backgroundColor: "rgba(255, 255, 255, 0.4)",
               width: "100%",
               padding: "10px",
               borderRadius: "4px",
               display: "inline-block",
               margin: "0 auto",
+              textAlign: "center",
             }}
           >
             <div
               style={{
                 borderRadius: "200px",
-                height: "200px",
-                width: "200px",
-                background: "#F8FAF5",
+                height: "100px",
+                width: "100px",
                 margin: "0 auto 20px auto",
               }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"
+                src="https://cdn-icons-png.flaticon.com/512/5290/5290058.png"
                 width={"100%"}
+                style={{
+                  maxWidth: "500px",
+                }}
               />
             </div>
-            <h1
+            <h3
               style={{
-                color: "#88B04B",
+                color: "#000000",
                 fontWeight: "500",
-                size: "20px!important",
+                size: "100px",
                 marginBottom: "10px",
               }}
             >
               Success
-            </h1>
-            <p
+            </h3>
+
+            <span
               style={{
                 color: "#404F5E",
                 size: "20px",
                 margin: "0",
+                fontWeight: "500",
               }}
             >
               Thank you for submitting your request;
               <br /> we'll be in touch shortly!
-            </p>
+            </span>
           </div>
         )}
         <div style={{ color: "red", fontStyle: "italic" }}>

@@ -102,15 +102,20 @@ export default class HomeBanner extends Component {
                         fontWeight: "400",
                       }}
                     >
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s.
+                      Add Video Commerce to your business with #1 virtual
+                      shopping platform
                     </p>
                     <button onClick={this.modalOpen} className="hero-btn">
                       Book a Demo
                     </button>
                     <div id="myModalHero" class="modal">
-                      <div class="modal-content">
+                      <div
+                        class="modal-content"
+                        style={{
+                          backgroundColor: "rgba(255, 255, 255, 0.8)",
+                          borderRadius: "10px",
+                        }}
+                      >
                         <span onClick={this.modalClose} class="close">
                           &times;
                         </span>
